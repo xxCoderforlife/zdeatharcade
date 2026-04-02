@@ -1,0 +1,5 @@
+zDeathArcade:
+   world-zombie-spawnLimit: 200
+   world-mob-spawning-enabled: true
+
+    

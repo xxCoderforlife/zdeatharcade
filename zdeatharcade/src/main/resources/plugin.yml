@@ -1,0 +1,93 @@
+name: zDeath-Arcade
+version: 0.0.2
+main: dev.nullpointercoding.zdeatharcade.Main
+api-version: 1.13
+authors: [xxCoderforlife]
+load: POSTWORLD
+# depend: [Vault, PlaceholderAPI] --> TODO: Add dependencies when they are added to the plugin
+#COMMANDS
+commands:
+  zdeatharcade:
+    permission: 
+    description: Root Command For zDeath-Arcade
+    usage: /zdeatharcade
+    aliases: [ zda ]
+  economy:
+    permission: 
+    description: Economy Command For zDeath-Arcade
+    usage: /economy
+    aliases: [ eco ]
+  account:
+    permission: 
+    description: Account Command For zDeath-Arcade
+    usage: /account
+    aliases: [ acc ]
+  spawn:
+    permission: 
+    description: Takes you back to spawn
+    usage: /spawn
+    aliases: [ sp,pleasesaveme ]
+  zombie:
+    permission: 
+    description: Zombie Command For zDeath-Arcade
+    usage: /zombie
+    aliases: [ z ]
+  vendor:
+    permission: 
+    description: Vendor Command For zDeath-Arcade
+    usage: /vendor
+    aliases: [ v ]
+  token:
+    permission: 
+    description: Token Command For zDeath-Arcade
+    usage: /token
+    aliases: [ t ]
+  settings:
+    permission: 
+    description: Settings Command For zDeath-Arcade
+    usage: /settings
+    aliases: [ set ]
+  stats:
+    permission: 
+    description: Stats Command For zDeath-Arcade
+    usage: /stats
+    aliases: [ stat ]
+  afk:
+    permission: 
+    description: AFK Command For zDeath-Arcade
+    usage: /afk
+    aliases: [ afk ]
+  prizellama:
+    permission: 
+    description: PrizeLlama Command For zDeath-Arcade
+    usage: /prizellama
+    aliases: [ pll ]
+permissions:
+  zdeatharcade.admin:
+    description: Allows access to all zDeath-Arcade commands
+    default: op
+  zdeatharcade.economy:
+    description: Allows access to all zDeath-Arcade economy commands
+    default: op
+  zdeatharcade.account:
+    description: Allows you to access the AccountGUI
+    default: true
+  zdeatharcade.spawn:
+    description: Allows you to access the spawn command
+    default: true
+  zdeatharcade.vendor:
+    description: Allows you to access the vendor command
+    default: op
+  zdeatharcade.token:
+    description: Allows you to access the token command
+    default: op
+  zdeatharcade.settings:
+    description: Allows you to access the settings command
+    default: true
+  zdeatharcade.stats:
+    description: Allows you to access the stats command
+    default: true
+  zdeatharcade.afk:
+    description: Allows you to access the afk command
+    default: true
+          

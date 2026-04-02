@@ -1,0 +1,9 @@
+Auto-Messages:
+  Header: "&f&l[&4&lANNOUNCEMENT&f&l]"
+  # Interval in seconds
+  Timer: 60
+  # Use '&' for color codes
+  Messages:
+   - "&3Cheese is a good source of calcium! ,&e&oWhat if I told you that's a lie?"
+   - "&5Did you know that the average person eats 8 spiders in their sleep every year? ,&c&oIm not your dad."
+       
